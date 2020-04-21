@@ -37,7 +37,7 @@ If you installed an earlier version of `oc`, you cannot use it to complete all
 of the commands in {product-title} {product-version}. Download and
 install the new version of `oc`.
 ====
-
+[id="on-linux_{context}"]
 == On Linux
 
 .Procedure
@@ -54,6 +54,7 @@ endif::[]
 ----
 $ tar xvzf <file>
 ----
+
 . Place the `oc` binary in a directory that is on your `PATH`.
 . To check your `PATH`, run:
 +
@@ -61,6 +62,7 @@ $ tar xvzf <file>
 $ echo $PATH
 ----
 
+[id="on-windows-78_{context}"]
 == On Windows 7/8
 
 .Procedure
@@ -79,6 +81,7 @@ endif::[]
 . Select *Path* from the *Variable* section and click *Edit*.
 . Click *New* and type the path to the folder with the `.exe` file into the field or click *Browse* and select the directory, and click *OK*.
 
+[id="on-windows-10_{context}"]
 == On Windows 10
 
 .Procedure
@@ -96,6 +99,7 @@ endif::[]
 . Select *Path* from the *Variable* section and click *Edit*.
 . Click *New* and type the path to the directory with the `.exe` file into the field or click *Browse* and select the directory, and click *OK*.
 
+[id="on-macos_{context}"]
 == On MacOS
 
 .Procedure
